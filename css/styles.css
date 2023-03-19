@@ -253,6 +253,10 @@ body {
   }
 }
 
+.js .js-accordion dt {
+  cursor: pointer;
+}
+
 .js .js-accordion dd {
   display: none;
 }
