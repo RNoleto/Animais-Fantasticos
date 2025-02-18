@@ -14,7 +14,7 @@
 <body>
   <header></header>
 
-  <nav class="menu js-menu">
+  <nav class="menu" data-menu="suave">
     <ul>
       <li><a href="#animais">Animais</a></li>
       <li><a href="#faq">Faq</a></li>
@@ -23,9 +23,9 @@
     </ul>
   </nav>
 
-  <section class="grid-section animais js-scroll" id="animais">
+  <section class="grid-section animais" data-anime="scroll" id="animais">
     <h1 class="titulo">Animais Fantásticos</h1>
-    <ul class="animais-lista js-tabmenu">
+    <ul class="animais-lista" data-tab="menu">
       <!-- Comentario -->
       <li>
         <img src="img/imagem1.jpg" alt="Raposa">
@@ -46,54 +46,60 @@
         <img src="img/imagem6.jpg" alt="Leão">
       </li>
     </ul>
-    <div class="animais-descricao js-tabcontent">
-      <section>
+    <div class="animais-descricao" data-tab="content">
+      <section data-anime="show-right">
         <h2>Raposa</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde doloremque, harum error magni, nisi, excepturi quam delectus recusandae laboriosam fuga fugiat officiis eos expedita consequatur.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio eaque, rerum aspernatur asperiores doloremque explicabo repudiandae necessitatibus enim nisi neque, incidunt velit minima voluptatibus quos!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias adipisci quae corrupti sit eaque quia maxime voluptates magnam, architecto maiores doloremque, cumque culpa! Voluptates, laborum?</p>
+        <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</p>
+        <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+        <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do qual a raposa vermelha é a mais comum.</p>
       </section>
 
-      <section>
+      <section data-anime="show-down">
         <h2>Esquilo</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde doloremque, harum error magni, nisi, excepturi quam delectus recusandae laboriosam fuga fugiat officiis eos expedita consequatur.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio eaque, rerum aspernatur asperiores doloremque explicabo repudiandae necessitatibus enim nisi neque, incidunt velit minima voluptatibus quos!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias adipisci quae corrupti sit eaque quia maxime voluptates magnam, architecto maiores doloremque, cumque culpa! Voluptates, laborum?</p>
+        <p>O esquilo é um mamífero pertencente à família Sciudidae e à ordem rodentia. Sua família comprende os esquilos arborícolas, terrestres, voadores e as marmotas, entre outros.</p>
+        <p>Dentre os esquilos arborícolas e terrestres há mais de 230 espécies e no grupo dos esquilos voadores estão incluídas 43 espécies conhecidas. O esquilo mais comum, o europeu, possui pelagem avermelhada, cauda longa e tem pelos compridos nas orelhas.</p>
+        <p>O tamanho deste animal é variável, o menor deles é o esquilo pigmeu africano, que mede 13 cm de comprimento. Os maiores são os esquilos gigantes da Ásia, seu comprimento pode chegar a 90 cm.</p>
+        <p>Este animal pode ser encontrado no mundo todo, menos na Austrália. Normalmente vivem em bosques de coníferas e caducifólias (plantas que em determinada época do ano perdem suas folhas).</p>
       </section>
 
-      <section>
+      <section data-anime="show-right">
         <h2>Urso</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde doloremque, harum error magni, nisi, excepturi quam delectus recusandae laboriosam fuga fugiat officiis eos expedita consequatur.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio eaque, rerum aspernatur asperiores doloremque explicabo repudiandae necessitatibus enim nisi neque, incidunt velit minima voluptatibus quos!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias adipisci quae corrupti sit eaque quia maxime voluptates magnam, architecto maiores doloremque, cumque culpa! Voluptates, laborum?</p>
+        <p>Os Ursos constituem uma família de mamíferos carnívoros de grande porte, contendo os ursos e os pandas. Eles são classificados como caníformes ou carnivoros caninos.</p>
+        <p>Os ursos são encontrados nos continentes da América do Norte, América do Sul, Europa e Ásia. As características comuns dos ursos modernos incluem corpos grandes com pernas atarracadas, focinhos longos, orelhas pequenas e arredondadas, cabelos desgrenhados, patas plantígradas com cinco garras não retráteis e caudas curtas.</p>
+        <p>Os ursos são animais tipicamente solitários e, exceto quando estão a procura de um parceiro para acasalar ou mães acompanhando seus filhotes, passam a vida toda sozinhos.</p>
+        <p>Eles podem ter comportamentos diurnos ou noturnos e têm um excelente olfato. Apesar de sua constituição pesada e marcha desajeitada, eles são corredores, alpinistas e nadadores hábeis.</p>
+        <p>Os ursos usam abrigos como cavernas e troncos, ou constroem suas tocas; a maioria das espécies ocupam suas tocas durante o inverno por um longo período de hibernação, até 100 dias.</p>
+        <p>A maioria dos ursos costumam preparar-se para hibernar durante o verão, comendo grandes quantidades de comida antes de entrar em uma toca para o período de sono profundo durante todo o inverno.</p>
       </section>
 
-      <section>
+      <section data-anime="show-down">
         <h2>Lobo</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde doloremque, harum error magni, nisi, excepturi quam delectus recusandae laboriosam fuga fugiat officiis eos expedita consequatur.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio eaque, rerum aspernatur asperiores doloremque explicabo repudiandae necessitatibus enim nisi neque, incidunt velit minima voluptatibus quos!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias adipisci quae corrupti sit eaque quia maxime voluptates magnam, architecto maiores doloremque, cumque culpa! Voluptates, laborum?</p>
+        <p>Lobo é um animal carnívoro da família dos canídeos e que pertence ao gênero Canis. São três espécies que recebem tal designação: o lobo-cinzento, lobo-etíope e o lobo-dourado-africano. O lobo-oriental e o lobo-vermelho, possuem classificações discutíveis se espécies em si, subespécies do lobo-cinzento, ou híbridos de lobo com coiote.</p>
+        <p>Os lobos geralmente ostentam um porte maior em comparação às demais espécies de canídeos, além de possuírem ampla distribuição geográfica.</p>
+        <p> Os lobos são invariavelmente espécies que ostentam certas habilidades sociais, tendo um espécime/casal de espécimes reprodutor(es) como líder(es), são geralmente predadores de alto nível trófico, com apenas o lobo-dourado ocupando invariavelmente a posição de mesopredador.</p>
       </section>
 
-      <section>
+      <section data-anime="show-right">
         <h2>Macaco</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde doloremque, harum error magni, nisi, excepturi quam delectus recusandae laboriosam fuga fugiat(o)fficiis eos expedita consequatur.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio eaque, rerum aspernatur asperiores doloremque explicabo repudiandae necessitatibus enim nisi neque, incidunt velit minima voluptatibus quos!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias adipisci quae corrupti sit eaque quia maxime voluptates magnam, architecto maiores doloremque, cumque culpa! Voluptates, laborum?</p>
+        <p>Macaco é um termo de origem africana utilizado como designação comum a todas as espécies de símios ou primatas antropoides.</p>
+        <p>É aplicada restritivamente no Brasil aos cebídeos em geral. No sentido estrito, "macaco" refere-se às espécies de primatas pertencentes ao género Macaca.</p>
+        <p>Algumas características são compartilhadas entre os grupos; a maioria dos macacos do Novo Mundo tem caudas preênseis, enquanto os macacos do Velho Mundo têm caudas não preênseis ou nenhuma cauda visível.<p>
+        <p>Os macacos do Velho Mundo têm visão tricromática de cores como a dos humanos, enquanto os macacos do Novo Mundo podem ser tricromáticos, dicromáticos ou - como nos macacos-coruja e grandes galagos - monocromáticos.</p>
       </section>
 
-      <section>
+      <section data-anime="show-down">
         <h2>Leão</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde doloremque, harum error magni, nisi, excepturi quam delectus recusandae laboriosam fuga fugiat officiis eos expedita consequatur.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio eaque, rerum aspernatur asperiores doloremque explicabo repudiandae necessitatibus enim nisi neque, incidunt velit minima voluptatibus quos!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias adipisci quae corrupti sit eaque quia maxime voluptates magnam, architecto maiores doloremque, cumque culpa! Voluptates, laborum?</p>
+        <p>O leão é uma espécie de mamífero carnívoro do gênero Panthera e da família Felidae.</p>
+        <p>A espécie é atualmente encontrada na África subsaariana e na Ásia, com uma única população remanescente em perigo, no Parque Nacional da Floresta de Gir, Gujarat, Índia.</p>
+        <p>Foi extinto na África do Norte e no Sudoeste Asiático em tempos históricos, e até o Pleistoceno Superior, há cerca de 10 000 anos, era o mais difundido grande mamífero terrestre depois dos humanos, sendo encontrado na maior parte da África, em muito da Eurásia, da Europa Ocidental à Índia, e na América, do Yukon ao México.</p>
+        <p>É um dos quatro grandes felinos, com alguns machos excedendo 250 quilogramas em peso, sendo o segundo maior felino recente depois do tigre.</p>
       </section>
     </div>
   </section>
 
-  <section class="grid-section faq js-scroll" id="faq">
+  <section class="grid-section faq" data-anime="scroll" id="faq">
     <h1 class="titulo">FAQ</h1>
-    <dl class="faq-lista js-accordion">
+    <dl class="faq-lista" data-anime="accordion">
       <dt>Primeira Pergunta?</dt>
       <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, magnam quam numquam modi unde delectus, culpa doloremque deleniti veritatis, at molestiae id atque quo maiores perspiciatis nam illo. Cumque, eum.
       Quas fugiat modi possimus voluptatem. Animi quo enim esse consequuntur possimus, dolore minus et saepe reiciendis sunt atque dolor, odio eligendi dolores nobis neque quis soluta hic. Eius, nostrum quidem!
@@ -109,7 +115,7 @@
     </dl>
   </section>
 
-<section class="grid-section contato js-scroll" id="contato">
+<section class="grid-section contato" data-anime="scroll" id="contato">
   <h1 class="titulo">Contato</h1>
   <div class="mapa">
     <img src="img/mapa.png" alt="Mapa do endereço">
@@ -128,5 +134,6 @@
 
   <!-- Import Javascript  -->
   <script src="script.js"></script>
+  <script src="animacoes.js"></script>
 </body>
 </html>
