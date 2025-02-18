@@ -286,7 +286,7 @@ body {
 }
 
 [data-anime="accordion"] dt.ativo::after {
-  content: '▲ ';
+  content: '▲';
 }
 
 [data-anime="accordion"] dd.ativo {
